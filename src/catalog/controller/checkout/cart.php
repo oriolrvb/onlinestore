@@ -8,7 +8,7 @@ class Cart extends \Opencart\System\Engine\Controller {
         // Load the language file for the cart
         $this->load->language('checkout/cart');
 
-        // Set the title of the document
+        //demo
         $this->document->setTitle($this->language->get('heading_title'));
 
         // Initialize an empty array for breadcrumbs
